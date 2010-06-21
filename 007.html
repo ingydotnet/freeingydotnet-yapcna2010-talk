@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>007</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+function navigate(e) {
+    var keynum = (window.event) // IE
+        ? e.keyCode
+        : e.which;
+    if (keynum == 8) {
+        window.location = "006z" + ".html";
+        return false;
+    }
+    if (keynum == 13 || keynum == 32) {
+        window.location = "008" + ".html";
+        return false;
+    }
+    if (keynum == 73 || keynum == 105) {
+        window.location = "index.html";
+        return false;
+    }
+    return true;
+}
+</script>
+</head>
+<body onkeypress="return navigate(event)">
+<pre>
+
+
+     All of the programming source code for these
+     projects and many others is Freely available my
+     GitHub page and also distributed on services like
+     CPAN and PyPI, as appropriate. As often as
+     possible, I give Free presentations about these
+     projects at conferences, workshops and user group
+     meetings around the world, to people of all
+     programming backgrounds. I spend time talking and
+     working with them to further these and similar
+     works.
+
+
+
+
+
+</pre>
+</body>

@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>006l</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+function navigate(e) {
+    var keynum = (window.event) // IE
+        ? e.keyCode
+        : e.which;
+    if (keynum == 8) {
+        window.location = "006k" + ".html";
+        return false;
+    }
+    if (keynum == 13 || keynum == 32) {
+        window.location = "006m" + ".html";
+        return false;
+    }
+    if (keynum == 73 || keynum == 105) {
+        window.location = "index.html";
+        return false;
+    }
+    return true;
+}
+</script>
+</head>
+<body onkeypress="return navigate(event)">
+<pre>
+         * Acmeism -- A Philosophy
+         * C'Dent -- A Acmeist Programming Language
+         * TestML -- A Unit Test Framework
+         * Stardoc -- A Portable Documentation Framework
+         * YAML -- A Data Serialization Language
+         * JSYNC -- Another Data Serialization Language
+         * CogBase -- An Object Database
+         * XLog -- A New Kind of Blogging
+         * Kwiki -- A Wiki
+         * Jemplate -- A Portable Template Language
+         * Wikiwyg -- A Richtext/Wikitext Wiki Editor
+
+
+
+
+
+
+</pre>
+</body>
